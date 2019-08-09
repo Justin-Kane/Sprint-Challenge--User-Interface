@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    height: 60px;
+    margin-top: 30px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    margin: 20px 0px 20px 0px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,16 +124,60 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+
 .middle-content .boxes .box {
+    border: 1px solid black;
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
