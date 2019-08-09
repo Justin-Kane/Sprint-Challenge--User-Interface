@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 header {
@@ -196,6 +197,8 @@ nav a {
 footer {
     width: 100%;
     background: black;
+    margin-top: 40px;
+    
 }
 
 footer nav {
